@@ -56,6 +56,10 @@ To run FashPo locally, follow these steps:
 ```
 FashPo/
 ├── app.py              # Main Flask application
+├── Lambdas/            # AWS Lambda functions for serverless backend logic
+│   └── [lambda files]  # Individual Lambda function scripts
+├── Swift/              # Swift files for the iPhone frontend
+│   └── [swift files]   # iOS app source code
 ├── templates/          # HTML templates for the web interface
 │   └── index.html      # Example homepage template
 ├── static/             # CSS, JavaScript, and image assets
